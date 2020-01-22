@@ -10,6 +10,7 @@ import java.io.Reader;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Scanner;
 
 /**
  * Created by LaunchCode
@@ -65,6 +66,20 @@ public class JobData {
      * @param value Value of teh field to search for
      * @return List of all jobs matching the criteria
      */
+
+//    public static ArrayList<HashMap<String, String>> findByValue(String value){
+//        loadData();
+//        ArrayList<HashMap<String, String>> jobs = new ArrayList<>();
+//        Scanner input = new Scanner(System.in);
+//        System.out.println("Search a term: ");
+//
+//        for(HashMap<String, String>)
+//        searchValue = input.nextLine();
+//        if(jobs.containsValue(searchValue)){
+//
+//        }
+//        return jobs;
+//    }
     public static ArrayList<HashMap<String, String>> findByColumnAndValue(String column, String value) {
 
         // load data, if not already loaded
